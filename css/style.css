@@ -101,4 +101,16 @@ ul:hover li {
      -o-transition: all .2s ease-in;
      transition: all .2s ease-in;
 }
- 
+@media (max-width: 950px) {
+    .main-bl {
+        padding: 0;
+    }
+}
+@media (max-width: 480px) {
+    .width-25 {
+        width: 100%
+    }
+    .width-50 {
+        width: 100%
+    }
+}
