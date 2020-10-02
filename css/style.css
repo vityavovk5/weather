@@ -21,7 +21,7 @@ ul {
     font-size: 0px;
     box-sizing: border-box;
     border: 3px solid white;
-    
+    cursor: default;
 }
 li {
     padding: 40px 0 35px;
@@ -87,4 +87,18 @@ li.wi {
     font-size: 24px;
     opacity: 0.8;
 }
-
+div ul li:hover{
+    opacity: 1;
+    -webkit-transition: all .2s ease-in;
+     -moz-transition: all .2s ease-in;
+     -o-transition: all .2s ease-in;
+     transition: all .2s ease-in;
+}
+ul:hover li {
+    opacity: 0.4;
+    -webkit-transition: all .2s ease-in;
+     -moz-transition: all .2s ease-in;
+     -o-transition: all .2s ease-in;
+     transition: all .2s ease-in;
+}
+ 
