@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'sans-serif';
+}
+ul {
+    list-style-type: none;
+}
+#bg1 {
+    background-color: #2B81AC;
+    padding: 25px 0;
+}
+.main-bl {
+    height: 500px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #3399CC;
+}
